@@ -17,7 +17,7 @@ function newQuote() {
     quoteText.classList.remove("long-quote");
   }
   quoteText.textContent = quote.text;
-
+  
   //   Check the Author Name
   if (!quote.author) {
     authorText.textContent = "Unknown";
